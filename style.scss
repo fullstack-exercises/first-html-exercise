@@ -1,0 +1,104 @@
+// Variables
+$color-blue: #05b2dc;
+$color-darkblue: #004385;
+$color-white: #ffffff;
+$color-black: #2a2a2a;
+$color-light-grey: #eeeeee;
+$space: 15px;
+$space-s: $space * 0.5;
+$space-m: $space * 1.5;
+$space-l: $space * 2;
+// General
+body {
+    font-family: "Quicksand", sans-serif;
+    color: $color-black;
+    padding: 0;
+    margin: 0;
+}
+
+main {
+    background-color: $color-light-grey;
+    padding: $space;
+}
+
+h1 {
+    font-size: 30px;
+    &.hero-title {
+        background-color: $color-darkblue;
+        color: $color-white;
+        padding: $space-l;
+        text-align: center;
+        margin-bottom: 0;
+    }
+}
+
+// Header
+header {
+    background-color: $color-white;
+}
+
+nav {
+    padding: $space;
+    ul {
+        margin: 0;
+        li {
+            list-style: none;
+            float: left;
+            a {
+                text-decoration: none;
+                color: $color-black;
+                font-weight: bold;
+                padding: $space-s;
+            }
+        }
+    }
+}
+
+// Components
+.card {
+    background-color: $color-white;
+    padding: $space;
+    width: 250px;
+}
+
+// Buttons
+.button {
+    font-size: 16px;
+    padding: 10px 25px;
+    border: 1px solid $color-blue;
+    background: $color-blue;
+    margin-bottom: $space;
+    border-radius: 25px;
+    display: inline-block;
+    transition: all 0.2s ease-in-out;
+    margin-right: 10px;
+    color: $color-white;
+    outline: 0;
+    text-decoration: none;
+    &:hover {
+        background: transparent;
+        border: 1px solid $color-blue;
+        color: $color-blue;
+    }
+    &:active,
+    &:focus {
+        outline: none;
+        border: none;
+    }
+    &.ghost {
+        border: 1px solid $color-darkblue;
+        background: $color-white;
+        color: $color-darkblue;
+        &:hover {
+            background-color: $color-darkblue;
+            color: $color-white;
+        }
+    }
+}
+
+// Footer
+footer {
+    background-color: $color-white;
+    padding: $space;
+    text-align: center;
+}

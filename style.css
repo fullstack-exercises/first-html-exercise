@@ -1,0 +1,98 @@
+body {
+  font-family: "Quicksand", sans-serif;
+  color: #2a2a2a;
+  padding: 0;
+  margin: 0;
+}
+
+main {
+  background-color: #eeeeee;
+  padding: 15px;
+}
+
+h1 {
+  font-size: 30px;
+}
+
+h1.hero-title {
+  background-color: #004385;
+  color: #ffffff;
+  padding: 30px;
+  text-align: center;
+  margin-bottom: 0;
+}
+
+header {
+  background-color: #ffffff;
+}
+
+nav {
+  padding: 15px;
+}
+
+nav ul {
+  margin: 0;
+}
+
+nav ul li {
+  list-style: none;
+  float: left;
+}
+
+nav ul li a {
+  text-decoration: none;
+  color: #2a2a2a;
+  font-weight: bold;
+  padding: 7.5px;
+}
+
+.card {
+  background-color: #ffffff;
+  padding: 15px;
+  width: 250px;
+}
+
+.button {
+  font-size: 16px;
+  padding: 10px 25px;
+  border: 1px solid #05b2dc;
+  background: #05b2dc;
+  margin-bottom: 15px;
+  border-radius: 25px;
+  display: inline-block;
+  -webkit-transition: all 0.2s ease-in-out;
+  transition: all 0.2s ease-in-out;
+  margin-right: 10px;
+  color: #ffffff;
+  outline: 0;
+  text-decoration: none;
+}
+
+.button:hover {
+  background: transparent;
+  border: 1px solid #05b2dc;
+  color: #05b2dc;
+}
+
+.button:active, .button:focus {
+  outline: none;
+  border: none;
+}
+
+.button.ghost {
+  border: 1px solid #004385;
+  background: #ffffff;
+  color: #004385;
+}
+
+.button.ghost:hover {
+  background-color: #004385;
+  color: #ffffff;
+}
+
+footer {
+  background-color: #ffffff;
+  padding: 15px;
+  text-align: center;
+}
+/*# sourceMappingURL=style.css.map */

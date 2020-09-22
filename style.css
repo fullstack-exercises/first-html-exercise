@@ -101,6 +101,14 @@ form textarea {
   margin-bottom: 15px;
 }
 
+form input[type="radio"],
+form input[type="checkbox"] {
+  display: inline-block;
+  width: auto;
+  padding: 0;
+  margin-bottom: 0;
+}
+
 footer {
   background-color: #ffffff;
   padding: 15px;

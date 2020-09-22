@@ -113,6 +113,13 @@ form {
         padding: $space-s;
         margin-bottom: $space;
     }
+    input[type="radio"],
+    input[type="checkbox"] {
+        display: inline-block;
+        width: auto;
+        padding: 0;
+        margin-bottom: 0;
+    }
 }
 
 // Footer

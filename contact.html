@@ -3,7 +3,7 @@
 
 <head>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Home</title>
+    <title>Contact</title>
     <link rel="stylesheet" type="text/css" href="style.css">
     <link href="https://fonts.googleapis.com/css2?family=Quicksand:wght@300&display=swap" rel="stylesheet">
 </head>
@@ -17,20 +17,23 @@
                 <li><a href="contact.html">Contact</a></li>
             </ul>
         </nav>
-        <h1 class="hero-title">Home</h1>
+        <h1 class="hero-title">Contact</h1>
     </header>
     <main>
-        <h2>Just a simple setup</h2>
-        <hr>
-        <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Aenean commodo ligula eget dolor.</p>
-        <h2>My hobbies</h2>
-        <ul>
-            <li>Coding, learning new stuff</li>
-            <li>Baking</li>
-            <li>Motorcycling</li>
-            <li>Drumming</li>
-        </ul>
-        <a href="about.html" class="button">Read more about me</a>
+        <form name="contact" method="POST" data-netlify="true">
+
+            <label>Your Name: </label>
+            <input type="text" name="name" />
+
+            <label>Your Email: </label>
+            <input type="email" name="email" />
+
+            <label>Message: </label>
+            <textarea name="message"></textarea>
+
+            <button class="button" type="submit">Send</button>
+
+        </form>
     </main>
     <footer>
         <span>© Copyright Winc Academy</span>

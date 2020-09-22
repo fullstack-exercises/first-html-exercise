@@ -93,6 +93,14 @@ nav ul li a {
   color: #ffffff;
 }
 
+form input,
+form textarea {
+  display: block;
+  width: 250px;
+  padding: 7.5px;
+  margin-bottom: 15px;
+}
+
 footer {
   background-color: #ffffff;
   padding: 15px;

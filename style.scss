@@ -104,6 +104,17 @@ nav {
     }
 }
 
+// Form
+form {
+    input,
+    textarea {
+        display: block;
+        width: 250px;
+        padding: $space-s;
+        margin-bottom: $space;
+    }
+}
+
 // Footer
 footer {
     background-color: $color-white;
